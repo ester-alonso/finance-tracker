@@ -1,4 +1,4 @@
-<% if notice != nil %>
+<% if notice %>
 <div class="alert alert-success mt-4">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
@@ -6,7 +6,7 @@
   <%= notice %>
 </div>
 <% end %>
-<% if alert != nil %>
+<% if alert %>
 <div class="alert alert-danger mt-4">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
